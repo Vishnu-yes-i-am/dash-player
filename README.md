@@ -1,8 +1,8 @@
 # dash-player
 This repo is based on the implementation of dash which is Dynamic and Adaptive Steaming over HTTPS .This technology is used in many streaming platforms like netflix ,youtube  etc.
-I have written the code for both Ends 
-  1.Server
-  2.Client
+I have written the code for both Ends \n
+  1.Server \n
+  2.Client \n
 #Server Side Implementation
 ==> main.js
 ```js
