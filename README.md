@@ -4,6 +4,7 @@ I have written the code for both Ends <br />
   1.Server <br />
   2.Client <br />
 > Folder structure
+### Layout 
     .
     ├── main.js                  # Compiled files (alternatively `dist`)
     ├── video .                 # Documentation files (alternatively `doc`)
