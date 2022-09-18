@@ -9,10 +9,10 @@ I have written the code for both Ends <br />
     ├── main.js                  
     ├── video .                 
               ├── id_{ID} .                   
-                               ├── my_video_manifest.mpd         #file to provide as a source to client
-                               ├── stream_360p                
-                               ├── stram_480p
-                               └── stream_720p
+                           ├── my_video_manifest.mpd         #file to provide as a source to client
+                           ├── stream_360p                
+                           ├── stram_480p
+                           └── stream_720p
 ## Server Side Implementation <br />
 ==> main.js
 ```js
