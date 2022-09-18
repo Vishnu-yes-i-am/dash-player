@@ -4,8 +4,8 @@ I have written the code for both Ends <br />
   1.Server <br />
   2.Client <br />
 # Structure <br />
-main.js   <br />
-video  <br />
+main.js
+video 
 - video_id{ID}  <br />
   - my_video_manifest.mpd <br />
 
