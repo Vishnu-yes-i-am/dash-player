@@ -3,12 +3,15 @@ This repo is based on the implementation of dash which is Dynamic and Adaptive S
 I have written the code for both Ends <br />
   1.Server <br />
   2.Client <br />
-# Structure <br />
-main.js <br />
-video
-- video_id{ID}  <br />
-  - my_video_manifest.mpd <br />
-
+> Folder structure
+    .
+    ├── main.js                  # Compiled files (alternatively `dist`)
+    ├── video .                 # Documentation files (alternatively `doc`)
+              ├── video_id{ID} .                   # Source files (alternatively `lib` or `app`)
+                               ├── my_video_manifest.mpd                    # Automated tests (alternatively `spec` or `tests`)
+                               ├── stream_360p                # Tools and utilities
+                               ├── stram_480p
+                               └── stream_720p
 # Server Side Implementation <br />
 ==> main.js
 ```js
