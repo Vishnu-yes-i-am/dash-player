@@ -13,7 +13,7 @@ I have written the code for both Ends <br />
                                ├── stream_360p                
                                ├── stram_480p
                                └── stream_720p
-# Server Side Implementation <br />
+## Server Side Implementation <br />
 ==> main.js
 ```js
 const express = require('express')
@@ -56,4 +56,36 @@ app.get("/video/id_*/:fname", (req, res) => {
 })
 app.listen(5000);
 console.log("listening att 5000");
+```
+## Client Side Implementation <br />
+
+```html
+<!doctype html>
+<html>
+
+<head>
+    <title>Dash.js Rocks</title>
+    <style>
+        video {
+            width: 600px;
+            height: 350px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <video id="videoPlayer" controls></video>
+    </div>
+    <script src="http://cdn.dashjs.org/latest/dash.all.min.js"></script>
+    <script>
+        (function () {
+            var url = "http://SERVER_ADDRESS:5000/video/id_1/play";
+            var player = dashjs.MediaPlayer().create();
+            player.initialize(document.querySelector("#videoPlayer"), url, true);
+        })();
+    </script>
+</body>
+
+</html>
 ```
