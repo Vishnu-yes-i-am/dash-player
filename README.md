@@ -4,10 +4,10 @@ I have written the code for both Ends <br />
   1.Server <br />
   2.Client <br />
 # Structure <br />
-|-main.js   <br />
-|-video-+   <br />
-|        |____video_id{ID}  <br />
-|           |______my_video_manifest.mpd <br />
+main.js   <br />
+- video-+   <br />
+  - video_id{ID}  <br />
+    - my_video_manifest.mpd <br />
 
 # Server Side Implementation <br />
 ==> main.js
