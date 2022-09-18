@@ -64,7 +64,7 @@ console.log("listening att 5000");
 <html>
 
 <head>
-    <title>Dash.js Rocks</title>
+    <title>Dash-vm Player</title>
     <style>
         video {
             width: 600px;
