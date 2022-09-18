@@ -5,9 +5,9 @@ I have written the code for both Ends <br />
   2.Client <br />
 # Structure <br />
 main.js   <br />
-- video-+   <br />
-  - video_id{ID}  <br />
-    - my_video_manifest.mpd <br />
+video  <br />
+- video_id{ID}  <br />
+  - my_video_manifest.mpd <br />
 
 # Server Side Implementation <br />
 ==> main.js
