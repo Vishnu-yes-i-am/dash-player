@@ -21,7 +21,7 @@ const app = express()
 const fs=require('fs');
 const path = require('path')
 app.use(function (req, res, next) {
-    res.header("Access-Control-Allow-Origin", "*"); // update to match the domain you will make the request from
+    res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Headers", "*");
     next();
 });
@@ -55,7 +55,7 @@ app.get("/video/id_*/:fname", (req, res) => {
                 }
 })
 app.listen(5000);
-console.log("listening att 5000");
+console.log("listening at 5000");
 ```
 ## Client Side Implementation <br />
 
